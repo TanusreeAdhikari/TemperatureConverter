@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('temp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 495px;
+  margin: 100px auto;
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 66px;
+  border-radius: 56px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.converter {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.converter input {
+  width: 60%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.converter select {
+  width: 30%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.converter button {
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+  margin-top: 20px;
+}
